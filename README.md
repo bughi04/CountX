@@ -1,7 +1,7 @@
 # CountX
 
 A command-line calorie tracking application built in C++ that helps users manage their daily nutritional intake through an intuitive account-based system.
-> **Note**: This project was developed with AI assistance as a learning and development tool, alongside traditional programming methods.
+> **Note**: This project was designed and implemented by me, with selective use of AI tools for research, refactoring, and productivity - similar to modern IDE assistance.
 
 
 ## Overview
