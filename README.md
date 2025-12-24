@@ -55,7 +55,3 @@ Potential improvements include:
 - Macronutrient tracking (protein, carbs, fats)
 - Data visualization and reporting
 - Import/export functionality
-
----
-
-**If you find this project interesting, please consider giving it a star!**
