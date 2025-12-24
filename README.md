@@ -48,7 +48,7 @@ Upon launch, users can:
 
 ## Development Notes
 
-This project was developed with AI assistance as part of building a portfolio of programming projects demonstrating C++ proficiency, file I/O operations, and object-oriented design principles.
+This project was developed with AI assistance as part of demonstrating C++ proficiency, file I/O operations, and object-oriented design principles.
 
 ## Future Enhancements
 
