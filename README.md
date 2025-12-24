@@ -1,7 +1,64 @@
 # CountX
-This program implements a simple meal management system using C++. It contains classes for managing ingredients, allowing users to either add, search, and display details of a few ingredients with their associated calorie values, or to simply add their own custom value. The main features include:
-- Ingredient Management: Users can add new ingredients along with their calorie information and prevent duplicate entries.
-- Display Information: Each ingredient's name and its calorie count can be displayed.
-- Basic File Operations: The program includes functionality for reading and writing ingredient data to and from files, supporting persistent data storage.
-This program serves as a basic foundation for a nutrition management application, where users can track ingredients and their nutritional content.
-### Feel free to add an issue if you think something is wrong!
+
+A command-line calorie tracking application built in C++ that helps users manage their daily nutritional intake through an intuitive account-based system.
+
+## Overview
+
+CountX is a lightweight meal management system designed to help users track their daily calorie consumption against personalized goals. The application features a pre-loaded database of common foods and meals, while also allowing manual calorie entry for maximum flexibility.
+
+## Features
+
+- **User Account Management**: Create, login, and manage multiple user accounts with individual calorie targets
+- **Calorie Tracking**: Log daily calories either manually or by selecting from 20+ pre-loaded ingredients and meals
+- **Historical Data**: View calorie logs by date and track progress against daily objectives
+- **Data Persistence**: All user data and logs stored in CSV format for easy access and portability
+- **Duplicate Prevention**: Built-in validation prevents duplicate ingredients and accounts
+
+## Technical Stack
+
+- **Language**: C++ (Standard Library)
+- **Data Storage**: CSV files (`accounts.csv`, `logs.csv`)
+- **Architecture**: Object-oriented design with separate classes for ingredients and management logic
+
+## Getting Started
+
+### Prerequisites
+- C++ compiler (g++, clang, or MSVC)
+- Standard C++ library support
+
+### Compilation
+```bash
+g++ -o countx main.cpp
+```
+
+### Running
+```bash
+./countx
+```
+
+## Usage
+
+Upon launch, users can:
+1. Create a new account with a daily calorie objective (500-5000 calories)
+2. Log in to an existing account
+3. Track calories for specific dates
+4. View progress against daily goals
+5. Modify calorie objectives as needed
+
+
+## Development Notes
+
+This project was developed with AI assistance as part of building a portfolio of programming projects demonstrating C++ proficiency, file I/O operations, and object-oriented design principles.
+
+## Future Enhancements
+
+Potential improvements include:
+- Database integration (SQLite)
+- GUI implementation
+- Macronutrient tracking (protein, carbs, fats)
+- Data visualization and reporting
+- Import/export functionality
+
+---
+
+**If you find this project interesting, please consider giving it a star!**
